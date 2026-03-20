@@ -1,0 +1,16 @@
+# Python
+__pycache__/
+*.pyc
+.venv*/
+
+# IDE
+.idea/
+
+# Données générées (lourdes)
+kana-cnn/data/fonts/
+kana-cnn/data/*.npz
+kana-cnn/models/
+kana-cnn/plots/
+
+# OS
+.DS_Store
