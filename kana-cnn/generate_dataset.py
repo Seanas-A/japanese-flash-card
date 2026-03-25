@@ -74,9 +74,8 @@ SYSTEM_FONTS = [
 ]
 
 
-# Tailles de rendu pour multiplier les variantes par police
-# Rend à différentes tailles dans un canvas fixe → variations de proportion/marge
-RENDER_SIZES = [48, 56, 64, 72, 80]
+# Taille de rendu unique — les variations de scale/marge sont couvertes par l'augmentation on the fly
+RENDER_SIZE = 64
 
 
 def render_kana(font: ImageFont.FreeTypeFont, char: str, render_size: int = 64) -> np.ndarray | None:
@@ -161,27 +160,25 @@ def main() -> None:
     fonts = collect_fonts()
     print(f"  {len(fonts)} polices uniques")
 
-    # 2. Générer les images (plusieurs tailles par police pour multiplier les variantes)
-    n_variants = len(RENDER_SIZES)
-    print(f"\nGénération du dataset ({len(fonts)} polices × {len(ALL_KANA)} kana × {n_variants} tailles)...")
+    # 2. Générer les images (1 taille par police, l'augmentation couvre le reste)
+    print(f"\nGénération du dataset ({len(fonts)} polices × {len(ALL_KANA)} kana)...")
     images = []
     labels = []
     skipped = 0
 
     for font_name, font_path in fonts:
-        for font_size in RENDER_SIZES:
-            try:
-                font = ImageFont.truetype(font_path, font_size)
-            except Exception:
-                continue
+        try:
+            font = ImageFont.truetype(font_path, RENDER_SIZE)
+        except Exception:
+            continue
 
-            for label_idx, (kana, _) in enumerate(ALL_KANA):
-                img = render_kana(font, kana, font_size)
-                if img is None:
-                    skipped += 1
-                    continue
-                images.append(img)
-                labels.append(label_idx)
+        for label_idx, (kana, _) in enumerate(ALL_KANA):
+            img = render_kana(font, kana, RENDER_SIZE)
+            if img is None:
+                skipped += 1
+                continue
+            images.append(img)
+            labels.append(label_idx)
 
     images = np.array(images, dtype=np.uint8)
     labels = np.array(labels, dtype=np.uint8)
