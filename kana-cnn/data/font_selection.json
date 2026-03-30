@@ -1,0 +1,526 @@
+[
+  {
+    "name": "AoboshiOne-Regular",
+    "keep": true
+  },
+  {
+    "name": "BIZUDGothic-Bold",
+    "keep": true
+  },
+  {
+    "name": "BIZUDGothic-Regular",
+    "keep": true
+  },
+  {
+    "name": "BIZUDMincho-Bold",
+    "keep": true
+  },
+  {
+    "name": "BIZUDMincho-Regular",
+    "keep": true
+  },
+  {
+    "name": "BIZUDPGothic-Regular",
+    "keep": true
+  },
+  {
+    "name": "BIZUDPMincho-Bold",
+    "keep": true
+  },
+  {
+    "name": "BIZUDPMincho-Regular",
+    "keep": true
+  },
+  {
+    "name": "CherryBombOne-Regular",
+    "keep": true
+  },
+  {
+    "name": "Chokokutai-Regular",
+    "keep": true
+  },
+  {
+    "name": "DarumadropOne-Regular",
+    "keep": true
+  },
+  {
+    "name": "DelaGothicOne-Regular",
+    "keep": true
+  },
+  {
+    "name": "DotGothic16-Regular",
+    "keep": true
+  },
+  {
+    "name": "HachiMaruPop-Regular",
+    "keep": true
+  },
+  {
+    "name": "HinaMincho-Regular",
+    "keep": true
+  },
+  {
+    "name": "IBMPlexSansJP-Bold",
+    "keep": true
+  },
+  {
+    "name": "IBMPlexSansJP-ExtraLight",
+    "keep": true
+  },
+  {
+    "name": "IBMPlexSansJP-Light",
+    "keep": true
+  },
+  {
+    "name": "IBMPlexSansJP-Medium",
+    "keep": true
+  },
+  {
+    "name": "IBMPlexSansJP-Regular",
+    "keep": true
+  },
+  {
+    "name": "IBMPlexSansJP-SemiBold",
+    "keep": true
+  },
+  {
+    "name": "IBMPlexSansJP-Thin",
+    "keep": true
+  },
+  {
+    "name": "KaiseiDecol-Bold",
+    "keep": true
+  },
+  {
+    "name": "KaiseiDecol-Medium",
+    "keep": false
+  },
+  {
+    "name": "KaiseiDecol-Regular",
+    "keep": false
+  },
+  {
+    "name": "KaiseiHarunoUmi-Bold",
+    "keep": true
+  },
+  {
+    "name": "KaiseiHarunoUmi-Medium",
+    "keep": true
+  },
+  {
+    "name": "KaiseiHarunoUmi-Regular",
+    "keep": true
+  },
+  {
+    "name": "KaiseiOpti-Bold",
+    "keep": true
+  },
+  {
+    "name": "KaiseiOpti-Medium",
+    "keep": false
+  },
+  {
+    "name": "KaiseiOpti-Regular",
+    "keep": true
+  },
+  {
+    "name": "KaiseiTokumin-Bold",
+    "keep": false
+  },
+  {
+    "name": "KaiseiTokumin-ExtraBold",
+    "keep": true
+  },
+  {
+    "name": "KaiseiTokumin-Medium",
+    "keep": false
+  },
+  {
+    "name": "KaiseiTokumin-Regular",
+    "keep": true
+  },
+  {
+    "name": "Kapakana-Regular",
+    "keep": false
+  },
+  {
+    "name": "KiwiMaru-Light",
+    "keep": true
+  },
+  {
+    "name": "KiwiMaru-Medium",
+    "keep": false
+  },
+  {
+    "name": "KiwiMaru-Regular",
+    "keep": false
+  },
+  {
+    "name": "KleeOne-Regular",
+    "keep": true
+  },
+  {
+    "name": "KleeOne-SemiBold",
+    "keep": true
+  },
+  {
+    "name": "Kosugi-Regular",
+    "keep": false
+  },
+  {
+    "name": "KosugiMaru-Regular",
+    "keep": true
+  },
+  {
+    "name": "LINESeedJP-Bold",
+    "keep": true
+  },
+  {
+    "name": "LINESeedJP-ExtraBold",
+    "keep": false
+  },
+  {
+    "name": "LINESeedJP-Regular",
+    "keep": true
+  },
+  {
+    "name": "LINESeedJP-Thin",
+    "keep": false
+  },
+  {
+    "name": "MPLUS1-Regular",
+    "keep": true
+  },
+  {
+    "name": "MPLUS1Code-Regular",
+    "keep": true
+  },
+  {
+    "name": "MPLUS1p-Black",
+    "keep": false
+  },
+  {
+    "name": "MPLUS1p-Bold",
+    "keep": false
+  },
+  {
+    "name": "MPLUS1p-ExtraBold",
+    "keep": true
+  },
+  {
+    "name": "MPLUS1p-Light",
+    "keep": true
+  },
+  {
+    "name": "MPLUS1p-Medium",
+    "keep": false
+  },
+  {
+    "name": "MPLUS1p-Regular",
+    "keep": true
+  },
+  {
+    "name": "MPLUS1p-Thin",
+    "keep": true
+  },
+  {
+    "name": "MPLUS2-Regular",
+    "keep": true
+  },
+  {
+    "name": "MPLUSRounded1c-Black",
+    "keep": true
+  },
+  {
+    "name": "MPLUSRounded1c-Bold",
+    "keep": false
+  },
+  {
+    "name": "MPLUSRounded1c-ExtraBold",
+    "keep": true
+  },
+  {
+    "name": "MPLUSRounded1c-Light",
+    "keep": true
+  },
+  {
+    "name": "MPLUSRounded1c-Medium",
+    "keep": true
+  },
+  {
+    "name": "MPLUSRounded1c-Regular",
+    "keep": false
+  },
+  {
+    "name": "MPLUSRounded1c-Thin",
+    "keep": true
+  },
+  {
+    "name": "MochiyPopOne-Regular",
+    "keep": true
+  },
+  {
+    "name": "MochiyPopPOne-Regular",
+    "keep": true
+  },
+  {
+    "name": "MonomaniacOne-Regular",
+    "keep": true
+  },
+  {
+    "name": "Murecho-Regular",
+    "keep": true
+  },
+  {
+    "name": "NewTegomin-Regular",
+    "keep": true
+  },
+  {
+    "name": "NotoSansJP-Regular",
+    "keep": true
+  },
+  {
+    "name": "NotoSerifJP-Regular",
+    "keep": true
+  },
+  {
+    "name": "PaletteMosaic-Regular",
+    "keep": false
+  },
+  {
+    "name": "PottaOne-Regular",
+    "keep": true
+  },
+  {
+    "name": "RampartOne-Regular",
+    "keep": true
+  },
+  {
+    "name": "ReggaeOne-Regular",
+    "keep": true
+  },
+  {
+    "name": "Rock3D-Regular",
+    "keep": false
+  },
+  {
+    "name": "RocknRollOne-Regular",
+    "keep": true
+  },
+  {
+    "name": "SawarabiGothic-Regular",
+    "keep": true
+  },
+  {
+    "name": "SawarabiMincho-Regular",
+    "keep": true
+  },
+  {
+    "name": "ShipporiAntique-Regular",
+    "keep": true
+  },
+  {
+    "name": "ShipporiAntiqueB1-Regular",
+    "keep": false
+  },
+  {
+    "name": "ShipporiMincho-Bold",
+    "keep": true
+  },
+  {
+    "name": "ShipporiMincho-ExtraBold",
+    "keep": false
+  },
+  {
+    "name": "ShipporiMincho-Medium",
+    "keep": true
+  },
+  {
+    "name": "ShipporiMincho-Regular",
+    "keep": false
+  },
+  {
+    "name": "ShipporiMincho-SemiBold",
+    "keep": true
+  },
+  {
+    "name": "ShipporiMinchoB1-Bold",
+    "keep": false
+  },
+  {
+    "name": "ShipporiMinchoB1-ExtraBold",
+    "keep": true
+  },
+  {
+    "name": "ShipporiMinchoB1-Medium",
+    "keep": false
+  },
+  {
+    "name": "ShipporiMinchoB1-Regular",
+    "keep": true
+  },
+  {
+    "name": "ShipporiMinchoB1-SemiBold",
+    "keep": false
+  },
+  {
+    "name": "Shizuru-Regular",
+    "keep": true
+  },
+  {
+    "name": "SlacksideOne-Regular",
+    "keep": true
+  },
+  {
+    "name": "Stick-Regular",
+    "keep": true
+  },
+  {
+    "name": "TrainOne-Regular",
+    "keep": true
+  },
+  {
+    "name": "TsukimiRounded-Bold",
+    "keep": false
+  },
+  {
+    "name": "TsukimiRounded-Light",
+    "keep": false
+  },
+  {
+    "name": "TsukimiRounded-Medium",
+    "keep": false
+  },
+  {
+    "name": "TsukimiRounded-Regular",
+    "keep": false
+  },
+  {
+    "name": "TsukimiRounded-SemiBold",
+    "keep": false
+  },
+  {
+    "name": "WDXLLubrifontJPN-Regular",
+    "keep": true
+  },
+  {
+    "name": "Yomogi-Regular",
+    "keep": true
+  },
+  {
+    "name": "YujiBoku-Regular",
+    "keep": true
+  },
+  {
+    "name": "YujiHentaiganaAkari-Regular",
+    "keep": false
+  },
+  {
+    "name": "YujiHentaiganaAkebono-Regular",
+    "keep": false
+  },
+  {
+    "name": "YujiMai-Regular",
+    "keep": true
+  },
+  {
+    "name": "YujiSyuku-Regular",
+    "keep": true
+  },
+  {
+    "name": "YuseiMagic-Regular",
+    "keep": true
+  },
+  {
+    "name": "ZenAntique-Regular",
+    "keep": true
+  },
+  {
+    "name": "ZenAntiqueSoft-Regular",
+    "keep": true
+  },
+  {
+    "name": "ZenKakuGothicAntique-Black",
+    "keep": true
+  },
+  {
+    "name": "ZenKakuGothicAntique-Bold",
+    "keep": true
+  },
+  {
+    "name": "ZenKakuGothicAntique-Light",
+    "keep": true
+  },
+  {
+    "name": "ZenKakuGothicAntique-Medium",
+    "keep": true
+  },
+  {
+    "name": "ZenKakuGothicAntique-Regular",
+    "keep": true
+  },
+  {
+    "name": "ZenKakuGothicNew-Black",
+    "keep": true
+  },
+  {
+    "name": "ZenKakuGothicNew-Bold",
+    "keep": true
+  },
+  {
+    "name": "ZenKakuGothicNew-Light",
+    "keep": true
+  },
+  {
+    "name": "ZenKakuGothicNew-Medium",
+    "keep": true
+  },
+  {
+    "name": "ZenKakuGothicNew-Regular",
+    "keep": true
+  },
+  {
+    "name": "ZenKurenaido-Regular",
+    "keep": true
+  },
+  {
+    "name": "ZenMaruGothic-Black",
+    "keep": true
+  },
+  {
+    "name": "ZenMaruGothic-Bold",
+    "keep": true
+  },
+  {
+    "name": "ZenMaruGothic-Light",
+    "keep": true
+  },
+  {
+    "name": "ZenMaruGothic-Medium",
+    "keep": true
+  },
+  {
+    "name": "ZenMaruGothic-Regular",
+    "keep": true
+  },
+  {
+    "name": "ZenOldMincho-Black",
+    "keep": true
+  },
+  {
+    "name": "ZenOldMincho-Bold",
+    "keep": true
+  },
+  {
+    "name": "ZenOldMincho-Medium",
+    "keep": true
+  },
+  {
+    "name": "ZenOldMincho-Regular",
+    "keep": true
+  },
+  {
+    "name": "ZenOldMincho-SemiBold",
+    "keep": true
+  }
+]

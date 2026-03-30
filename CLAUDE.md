@@ -4,25 +4,25 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 ## Overview
 
-Kana recognition CNN (96 classes: 48 hiragana + 48 katakana). Dataset generated from Japanese fonts. Exported to CoreML + TF.js. Project language is French.
+Japanese character recognition CNN (2232 classes: 48 hiragana + 48 katakana + 2136 Jōyō kanji). Dataset generated from 100+ Japanese fonts (auto-discovered from Google Fonts). Exported to CoreML + TF.js. Project language is French.
 
 ## Commands
 
 ```bash
 cd kana-cnn
 pip install -r requirements.txt
-python download_fonts.py      # download Google Fonts
-python generate_dataset.py    # fonts → 28x28 images
-python train.py               # train CNN
-python evaluate.py            # metrics + confusion matrix
-python export.py              # CoreML + TF.js
+python prepare_dataset.py             # discover fonts + render all chars → dataset
+python prepare_dataset.py --kana-only # kana only (96 classes, faster)
+python train.py                       # train CNN
+python evaluate.py                    # metrics + confusion matrix
+python export.py                      # CoreML + TF.js
 ```
 
 ## Key files
 
-- `download_fonts.py` — downloads ~30 Japanese fonts from Google Fonts into `data/fonts/`
-- `generate_dataset.py` — renders each kana in each font (black bg, white strokes, 28x28), outputs npz + labels.json + split indices
-- `train.py` — CNN with on-the-fly augmentation (96 output classes)
+- `prepare_dataset.py` — unified pipeline: auto-discovers Japanese fonts from Google Fonts, downloads them, renders all characters (kana + kanji) as 28x28 images, outputs npz + labels.json + split indices
+- `joyo_kanji.py` — extracts 2136 Jōyō kanji from kanjidic2.xml (EDRDG), caches in data/joyo_kanji.json
+- `train.py` — ResNet-18 + Attention CNN with on-the-fly augmentation (dynamic NUM_CLASSES from labels.json)
 - `evaluate.py` — accuracy, confusion matrix, per-type breakdown
 - `export.py` — CoreML + TF.js export
 
